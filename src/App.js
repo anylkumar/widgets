@@ -21,7 +21,8 @@ const items = [
 export default function App() {
   return (
     <div>
-      <Search/>
+      <Search />
+      nononono
     </div>
   );
 }
