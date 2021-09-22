@@ -22,7 +22,6 @@ export default function App() {
   return (
     <div>
       <Search />
-      nononono
     </div>
   );
 }
