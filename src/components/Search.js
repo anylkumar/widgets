@@ -19,16 +19,16 @@ const Search = () => {
     search();
   }, [term]);
 
-  const onInputChange = (event) => {
-    setTerm(event.target.value);
-  };
-
   return (
     <div>
       <div className="ui form">
         <div className="field">
           <label htmlFor="text">Enter Search Term</label>
-          <input onChange={this.onInputChange} id="text" type="text" />
+          <input
+            onChange={(e) => setTerm(e.target.value)}
+            id="text"
+            type="text"
+          />
         </div>
       </div>
     </div>
